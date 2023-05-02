@@ -1,4 +1,8 @@
 # Abstract Factory Design Pattern in Java
+## Pattern 
+The Abstract Factory design pattern is a creational pattern that provides an interface for creating families of related objects without specifying their concrete classes. It allows the client code to create objects without knowing their specific implementation details by using a common interface to create objects of different but related types.  
+
+## Description
 This package is an implementation of the abstract factory design pattern in Java.  
 It contains 3 interfaces: `Chair`, `Table`, and `Bed`. Each interface has 2 implementations, a Wooden version and a Sturdy version.  
 For example, Chair is implemented by WoodenChair and SturdyChair.
