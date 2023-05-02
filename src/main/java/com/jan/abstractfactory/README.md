@@ -7,3 +7,6 @@ The package also contains a subpackage for factories. We have a factory interfac
 based on the argument passed to the function. The WoodenFactory returns wooden items only, while the SturdyFactory returns sturdy items only.
 
 Finally, the package contains a Runner class that runs all the other classes. This class can be used to test and demonstrate the functionality of the package.
+
+## Output
+![image](https://user-images.githubusercontent.com/84196929/235719442-9e54f6bf-dd9f-465c-b8a4-dceb71b61aa6.png)
