@@ -25,7 +25,7 @@ public class Circle extends Shape {
 
     @Override
     void draw() {
-        System.out.println("Drawing "+this.getName()+" a " + this.getColor() + " " + this.getClass()
+        System.out.println("Drawing " + this.getName() + " a " + this.getColor() + " " + this.getClass()
                 .getSimpleName() + " with radius " + this.getRadius());
     }
 }
