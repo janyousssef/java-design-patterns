@@ -1,6 +1,4 @@
-package com.jan.command.commands;
-
-import com.jan.command.commands.BankCommand;
+package com.jan.command.bankcommands;
 
 public class TransferMoney implements BankCommand {
     @Override

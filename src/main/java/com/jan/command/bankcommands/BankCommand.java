@@ -1,4 +1,4 @@
-package com.jan.command.commands;
+package com.jan.command.bankcommands;
 
 public interface BankCommand {
     void execute();
