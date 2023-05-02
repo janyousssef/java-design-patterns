@@ -2,8 +2,8 @@ package com.jan.prototype;
 
 public class PrototypeRunner {
     public static void main(String[] args) {
-        Circle c1 = new Circle("Circy the Circle", "10", "Red");
-        Circle c2 = c1.customClone(c1);
+        Shape c1 = new Circle("Circy the Circle", "10", "Red");
+        Shape c2 = c1.customClone(c1);
 
         System.out.println("-----------Original circle-----------");
         c1.draw();
