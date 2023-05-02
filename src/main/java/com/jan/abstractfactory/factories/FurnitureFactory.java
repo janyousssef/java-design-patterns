@@ -9,13 +9,9 @@ public interface FurnitureFactory {
     Chair createChair(String name, String color);
     Table createTable(String name, String color);
     static FurnitureFactory getFactory(String type) {
-        if (type.equals("wood")) {
-            return new WoodFurnitureFactory();
-        } else if (type.equals("sturdy")) {
-            return new SturdyFurnitureFactory();
-        } else {
-            throw new IllegalArgumentException("No such factory");
-        }
+        if (type.equals("wood")) return new WoodFurnitureFactory();
+        if (type.equals("sturdy")) return new SturdyFurnitureFactory();
+        else throw new IllegalArgumentException("No such factory");
     }
 
 }
