@@ -1,12 +1,12 @@
-package com.jan.abstractfactory.beds;
+package com.jan.abstractfactory.chairs;
 
-import com.jan.abstractfactory.interfaces.Bed;
+import com.jan.abstractfactory.interfaces.Chair;
 
-public class RaceCarBed implements Bed {
+public class WoodenChair implements Chair {
     private final String name;
     private final String color;
 
-    public RaceCarBed(String name, String color) {
+    public WoodenChair(String name, String color) {
         this.name = name;
         this.color = color;
     }
@@ -20,8 +20,8 @@ public class RaceCarBed implements Bed {
     }
 
     @Override
-    public void sleepOn() {
-        System.out.println("Sleeping on" + this.name + " a " + this.getColor() + " " + this.getClass()
+    public void sitOn() {
+        System.out.println("Sitting on" + this.name + " a " + this.getColor() + " " + this.getClass()
                 .getSimpleName() + " chair.");
     }
 }

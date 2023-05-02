@@ -2,11 +2,11 @@ package com.jan.abstractfactory.chairs;
 
 import com.jan.abstractfactory.interfaces.Chair;
 
-public class ClownChair implements Chair {
+public class SturdyChair implements Chair {
     private final String name;
     private final String color;
 
-    public ClownChair(String name, String color) {
+    public SturdyChair(String name, String color) {
         this.name = name;
         this.color = color;
     }
