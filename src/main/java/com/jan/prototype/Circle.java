@@ -10,13 +10,6 @@ public class Circle extends Shape {
         this.color = color;
     }
 
-    public Circle(Circle toBeCloned) {
-        super(toBeCloned.getName());
-        this.radius = toBeCloned.radius;
-        this.color = toBeCloned.color;
-
-    }
-
     public String getRadius() {
         return radius;
     }
@@ -27,7 +20,7 @@ public class Circle extends Shape {
 
     @Override
     Circle customClone(Shape toBeCloned) {
-        return new Circle(this);
+        return new Circle(this.getName(), this.getRadius(), this.getColor());
     }
 
     @Override
