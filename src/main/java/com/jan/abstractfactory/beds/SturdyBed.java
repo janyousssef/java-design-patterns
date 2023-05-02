@@ -21,8 +21,8 @@ public class SturdyBed implements Bed {
 
     @Override
     public void sleepOn() {
-        System.out.println("Sleeping on" + this.name + " a " + this.getColor() + " " + this.getClass()
-                .getSimpleName() + " chair.");
+        System.out.println("Sleeping on " + this.name + " a " + this.getColor() + " " + this.getClass()
+                .getSimpleName());
     }
 
 }

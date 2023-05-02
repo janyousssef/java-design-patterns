@@ -22,6 +22,6 @@ public class WoodenTable implements Table {
     @Override
     public void sitAt() {
         System.out.println("Sitting at " + this.name + " a " + this.getColor() + " " + this.getClass()
-                .getSimpleName() + " table.");
+                .getSimpleName());
     }
 }

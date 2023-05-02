@@ -21,8 +21,8 @@ public class SturdyChair implements Chair {
 
     @Override
     public void sitOn() {
-        System.out.println("Sitting on" + this.name + " a " + this.getColor() + " " + this.getClass()
-                .getSimpleName() + " chair.");
+        System.out.println("Sitting on " + this.name + " a " + this.getColor() + " " + this.getClass()
+                .getSimpleName());
 
     }
 }

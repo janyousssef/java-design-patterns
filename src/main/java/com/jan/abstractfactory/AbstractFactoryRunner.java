@@ -14,7 +14,7 @@ public class AbstractFactoryRunner {
         Bed woodenBed = woodFactory.createBed("Murphy", "brown");
         Table woodenTable = woodFactory.createTable("Michael", "blue");
         Chair woodenChair = woodFactory.createChair("Nina", "red");
-        System.out.println("Wooden items:");
+        System.out.println("------------Wooden items------------");
         woodenBed.sleepOn();
         woodenTable.sitAt();
         woodenChair.sitOn();
@@ -24,7 +24,7 @@ public class AbstractFactoryRunner {
         Table sturdyTable = sturdyFactory.createTable("John", "blue");
         Chair sturdyChair = sturdyFactory.createChair("Ted", "red");
 
-        System.out.println("Sturdy items:");
+        System.out.println("\n------------Sturdy items------------");
         sturdyBed.sleepOn();
         sturdyTable.sitAt();
         sturdyChair.sitOn();
