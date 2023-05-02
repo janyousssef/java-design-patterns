@@ -5,6 +5,9 @@ import com.jan.abstractfactory.chairs.SturdyChair;
 import com.jan.abstractfactory.tables.SturdyTable;
 
 public class SturdyFurnitureFactory implements FurnitureFactory {
+    SturdyFurnitureFactory() {
+    }
+
     @Override
     public SturdyBed createBed(String name, String color) {
         return new SturdyBed(name, color);

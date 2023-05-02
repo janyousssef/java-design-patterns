@@ -5,6 +5,8 @@ import com.jan.abstractfactory.chairs.WoodenChair;
 import com.jan.abstractfactory.tables.WoodenTable;
 
 public class WoodFurnitureFactory implements FurnitureFactory {
+    WoodFurnitureFactory() {
+    }
 
     @Override
     public WoodenBed createBed(String name, String color) {
