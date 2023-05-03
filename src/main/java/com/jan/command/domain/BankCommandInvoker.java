@@ -9,10 +9,6 @@ public class BankCommandInvoker {
     BankCommand command;
     ArrayList<String> log = new ArrayList<>();
 
-    public BankCommandInvoker(BankCommand command) {
-        this.command = command;
-    }
-
     public BankCommandInvoker() {
 
     }
