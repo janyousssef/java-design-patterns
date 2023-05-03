@@ -2,6 +2,7 @@ package com.jan.command.domain;
 
 import com.jan.command.bankcommands.BankCommand;
 
+import java.time.LocalTime;
 import java.util.ArrayList;
 
 public class BankCommandInvoker {
@@ -34,13 +35,13 @@ public class BankCommandInvoker {
 
     private void logExecution() {
         String logStatement = "Executed command: " + command.getClass()
-                .getSimpleName() + " with params: " + command + " at " + System.currentTimeMillis();
+                .getSimpleName() + " with params: " + command + " at " + LocalTime.now();
         log.add(logStatement);
     }
 
     private void logUndo() {
         String logStatement = "Undid command: " + command.getClass()
-                .getSimpleName() + " with params: " + command + " at " + System.currentTimeMillis();
+                .getSimpleName() + " with params: " + command + " at " + LocalTime.now();
         log.add(logStatement);
 
     }

@@ -20,4 +20,11 @@ public class BankUser {
     public void printBalance() {
         System.out.println("Balance of " + name + " is " + balance);
     }
+
+    @Override
+    public String toString() {
+        return "BankUser{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

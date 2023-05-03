@@ -24,4 +24,13 @@ public class TransferMoney implements BankCommand {
         destinationUser.withdraw(amount);
         sourceUser.deposit(amount);
     }
+
+    @Override
+    public String toString() {
+        return "TransferMoney{" +
+                "sourceUser=" + sourceUser +
+                ", destinationUser=" + destinationUser +
+                ", amount=" + amount +
+                '}';
+    }
 }
