@@ -10,3 +10,6 @@ It includes a bankcommands sub-package that contains the `Command` interface and
 implementations: `DepositMoney` and `TransferMoney`  
 Additionally, there is a domain sub-package that includes the `User` class and the `BankCommandInvoker` class.
 Finally, there is a runner class that demonstrates how the Command pattern can be used to provide do/undo and logging functionality.
+
+## Output
+![image](https://user-images.githubusercontent.com/84196929/235813878-22ca3ec3-8de6-46b9-8427-f08c00338650.png)
