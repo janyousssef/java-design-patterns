@@ -13,6 +13,10 @@ public class BankCommandInvoker {
         this.command = command;
     }
 
+    public BankCommandInvoker() {
+
+    }
+
     public void setCommand(BankCommand command) {
         this.command = command;
     }
