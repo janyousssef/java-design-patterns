@@ -34,14 +34,12 @@ public class BankCommandInvoker {
     }
 
     private void logExecution() {
-        String logStatement = "Executed command: " + command.getClass()
-                .getSimpleName() + " with params: " + command + " at " + LocalTime.now();
+        String logStatement = command + " at " + LocalTime.now();
         log.add(logStatement);
     }
 
     private void logUndo() {
-        String logStatement = "Undid command: " + command.getClass()
-                .getSimpleName() + " with params: " + command + " at " + LocalTime.now();
+        String logStatement = command + " at " + LocalTime.now();
         log.add(logStatement);
 
     }
