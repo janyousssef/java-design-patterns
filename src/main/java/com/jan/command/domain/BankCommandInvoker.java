@@ -27,7 +27,9 @@ public class BankCommandInvoker {
     }
 
     public void printLog() {
-        System.out.println(log);
+        for (String logStatement : log) {
+            System.out.println(logStatement);
+        }
     }
 
     private void logExecution() {
