@@ -5,3 +5,4 @@ I created this repo to study the more advanced design patterns and implement the
 ## Implemented patterns:
 - [AbstractFactory](https://github.com/janyousssef/java-design-patterns/tree/main/src/main/java/com/jan/abstractfactory)
 - [Prototype](https://github.com/janyousssef/java-design-patterns/tree/main/src/main/java/com/jan/prototype)
+- [Command](https://github.com/janyousssef/java-design-patterns/tree/main/src/main/java/com/jan/command)
