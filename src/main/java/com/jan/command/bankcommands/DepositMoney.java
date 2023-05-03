@@ -20,4 +20,12 @@ public class DepositMoney implements BankCommand {
     public void undo() {
         user.withdraw(amount);
     }
+
+    @Override
+    public String toString() {
+        return "DepositMoney{" +
+                "user=" + user +
+                ", amount=" + amount +
+                '}';
+    }
 }
