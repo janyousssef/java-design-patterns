@@ -1,5 +1,6 @@
 package com.jan.command;
 
+import com.jan.command.bankcommands.DepositMoney;
 import com.jan.command.bankcommands.TransferMoney;
 import com.jan.command.domain.BankCommandInvoker;
 import com.jan.command.domain.BankUser;
@@ -25,6 +26,23 @@ public class CommandRunner {
         invoker.undo();
 
         System.out.println("---------Balances after undo---------");
+        jan.printBalance();
+        mostafa.printBalance();
+
+        System.out.println("---------Transfers log---------");
+        invoker.printLog();
+
+        System.out.println("---------Change command---------");
+        DepositMoney deposit100 = new DepositMoney(jan, 100);
+        invoker.setCommand(deposit100);
+
+        System.out.println("---------Balances before deposit---------");
+        jan.printBalance();
+        mostafa.printBalance();
+        System.out.println("---------Deposit 100 to Jan---------");
+        invoker.execute();
+
+        System.out.println("---------Balances after deposit---------");
         jan.printBalance();
         mostafa.printBalance();
 
