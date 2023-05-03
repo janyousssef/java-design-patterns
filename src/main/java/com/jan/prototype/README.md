@@ -1,4 +1,4 @@
-# Prototype Pattern in Java
+# Prototype Design Pattern in Java
 ## Pattern
 The Prototype pattern is a creational pattern that allows creating new objects by copying or cloning existing object. 
 It provides a mechanism for creating new objects based on existing ones, with the same state and properties. 

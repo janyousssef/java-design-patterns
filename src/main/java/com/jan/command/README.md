@@ -1,5 +1,5 @@
-# Command Pattern in Java
-## Description
+# Command Design Pattern in Java
+## Pattern
 The Command pattern is a behavioral design pattern that encapsulates a request or command as an object,  
 allowing the request to be passed as a method argument, queued, logged, or otherwise manipulated.  
 It decouples the object that invokes the request from the one that knows how to perform it, promoting loose coupling, separation of concerns, and flexibility in the design.
